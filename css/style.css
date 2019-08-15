@@ -37,6 +37,9 @@ h4{
 .fw-300{
     font-weight: 300;
 }
+.fw-700{
+    font-weight: 700;
+}
 .centrar-texto{
     text-align: center;
 }
@@ -256,4 +259,19 @@ background-color: #78b100;
     display: flex;
     justify-content: space-between;
     padding: 2rem 0;
+}
+/*Nosotros*/
+.site-header{
+    background: #333333;
+}
+.contenido-nosotros{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+}
+.texto-nosotros blockquote{
+    font-size: 2rem;
+    font-weight: 900;
+    margin:0;
+    padding: 1 0 3rem 0;
 }
